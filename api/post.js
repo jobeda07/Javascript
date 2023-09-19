@@ -22,6 +22,7 @@ function displayPosts(posts) {
         Postdiv.innerHTML = `
           <h5>userId ${post.userId}</h5>
           <h4>Post title ${post.title}</h4>
+          
           <p>post description ${post.body}</p>
          `;
         postContainer.appendChild(Postdiv);
